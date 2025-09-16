@@ -39,4 +39,6 @@ console.log("Сумма равна " + sum)
    - Information resource manager
 ### Level of English
 ---
+**A2**
+*C2(coming soon)*
 
