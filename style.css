@@ -13,9 +13,10 @@ html {
   }
 }
 
-html, body {
+html,
+body {
   background: #d9d6d0;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -164,14 +165,14 @@ body {
   cursor: pointer;
 }
 .info-section__software-card--js:hover {
-  background: #F7DF1E;
+  background: #f7df1e;
   color: #2f2f2f;
 }
 .info-section__software-card--ts:hover {
-  background: #3178C6;
+  background: #3178c6;
 }
 .info-section__software-card--git:hover {
-  background: #F1502F;
+  background: #f1502f;
 }
 .info-section__software-card--css:hover {
   background: #663399;
@@ -182,6 +183,7 @@ body {
 .info-section__wrapper--software {
   flex-wrap: wrap;
   gap: 6px 3px;
+  list-style: none;
 }
 .info-section__wrapper--languages {
   align-items: center;
