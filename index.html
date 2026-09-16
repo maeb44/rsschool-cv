@@ -1,33 +1,33 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./assets/img/paddles.avif" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    >
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="icon" href="./assets/img/paddles.avif" >
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CV</title>
   </head>
   <body>
     <main class="page-layout">
-      <header class="left-column">
+      <section class="left-column">
         <div class="left-column__image-wrapper">
           <img
             class="left-column__image"
             src="./assets/img/my-photo.jpg"
             alt="Developer photo"
-          />
+          >
           <div class="left-column__title-wrapper">
             <h1 class="left-column__main-title">Denis Kovalenko</h1>
             <p class="left-column__second-title">Front-end Developer</p>
           </div>
         </div>
-        <div class="info-section info-section--software">
+        <nav class="info-section info-section--software">
           <h2 class="info-section__title">software</h2>
           <ul class="info-section__wrapper info-section__wrapper--software">
             <li
@@ -51,8 +51,8 @@
               HTML/CSS
             </li>
           </ul>
-        </div>
-        <div class="info-section info-section--languages">
+        </nav>
+        <header class="info-section info-section--languages">
           <h2 class="info-section__title">languages</h2>
           <ul class="info-section__wrapper info-section__wrapper--languages">
             <li class="info-section__languages-card">
@@ -239,7 +239,7 @@
               </div>
             </li>
           </ul>
-        </div>
+        </header>
         <div class="info-section info-section--interests">
           <h2 class="info-section__title">INTERESTS / HOBBIES</h2>
           <ul class="info-section__wrapper info-section__wrapper--interests">
@@ -341,7 +341,7 @@
             </li>
           </ul>
         </div>
-        <div class="info-section info-section--contacts">
+        <footer class="info-section info-section--contacts">
           <h2 class="info-section__title">Let’s keep it touch</h2>
           <ul class="info-section__wrapper info-section__wrapper--contacts">
             <li class="info-section__contacts-card">
@@ -451,8 +451,8 @@
               </a>
             </li>
           </ul>
-        </div>
-      </header>
+        </footer>
+      </section>
       <section class="right-column">
         <div class="main-section main-section--me">
           <h2 class="main-section__title">About me</h2>
@@ -480,7 +480,7 @@
 }, 0);
 </code></pre>
         </div>
-        <nav class="main-section main-section--education">
+        <div class="main-section main-section--education">
           <div class="main-section__logo">
             <div class="icon icon--work">
               <svg
@@ -584,8 +584,8 @@
               <li>Position №30</li>
             </ul>
           </div>
-        </nav>
-        <footer class="main-section main-section--projects">
+        </div>
+        <div class="main-section main-section--projects">
           <div class="main-section__logo">
             <div class="icon icon--work icon--red">
               <svg
@@ -671,7 +671,7 @@
               </li>
             </ul>
           </div>
-        </footer>
+        </div>
       </section>
     </main>
   </body>
